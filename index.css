@@ -3,36 +3,48 @@
 }
 
 .header {
-    display: flex;   
+    display: flex;
     justify-content: space-between;
     border: 1px solid black
 }
 
 .logo {
     width: 200px;
-    height: 110px;
 }
 
 .nav-items {
     padding: 0px 20px;
 }
 
-.nav-items > ul {
+.nav-items>ul {
     font-size: 24px;
     display: flex;
     list-style-type: none;
 }
 
-.nav-items > ul > li {
+.nav-items>ul>li {
     padding: 10px;
     margin: 10px
+}
 
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .res-card {
+    padding: 5px;
     width: 200px;
-    height: 300px;
+    height: 350px;
     border: 1px solid black;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.res-card:hover {
+    border: 0.5px solid rgb(65, 63, 63)
 }
 
 .search {
@@ -40,6 +52,9 @@
 }
 
 .res-logo {
-    margin: 5px;
     width: 100%;
+}
+
+.filter-btn {
+    margin: 20px 20px 20px 0px;
 }
